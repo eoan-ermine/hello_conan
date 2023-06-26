@@ -7,6 +7,6 @@ Example of using the conan package manager
 ```shell
 mkdir build && cd build
 conan install .. -of .
-cmake --preset conan-release .
-cmake --build build
+cmake --preset conan-release ..
+cmake --build .
 ```
